@@ -17,7 +17,9 @@ player.on('timeupdate', throttle(setCurrentTime, 1000) );
 
 player.setCurrentTime(localStorage.getItem(CURRENT_TIME) || 0); 
    
-   
+//    player.on('timeupdate',setCurrentTime );
+
+// player.setCurrentTime(localStorage.getItem(CURRENT_TIME) || 0); 
    
    
 // player.on('play', function () {
